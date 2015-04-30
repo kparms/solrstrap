@@ -1,14 +1,14 @@
-
-
 //CONST- CHANGE ALL THESE TO TELL SOLRSTRAP ABOUT THE LOCATION AND STRUCTURE OF YOUR SOLR
 
 var SERVERROOT = 'http://localhost:8983/solr/gettingstarted/select/'; //SELECT endpoint
 var HITTITLE = 'title';                                        //Name of the title field- the heading of each hit
-var HITBODY = 'text';                                          //Name of the body field- the teaser text of each hit
+var HITBODY = 'id';                                          //Name of the body field- the teaser text of each hit
 var HITSPERPAGE = 20;                                          //page size- hits per page
-var FACETS = ['topics','organisations'];                       //facet categories
+var FACETS = ['author','title','features'];                       //facet categories
 
-var FACETS_TITLES = {'topics': 'subjects'};  // selective rename facet names for display
+var FACETS_TITLES = {'author': 'Author',
+			'title': 'Title',
+			'features' : 'Features'};  // selective rename facet names for display
 
 var HITID = 'id'		// Name of the id field
 var HITTEASER = 'teaser';	// Name of field to use for teaser
