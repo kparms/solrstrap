@@ -2,7 +2,7 @@
 
 //CONST- CHANGE ALL THESE TO TELL SOLRSTRAP ABOUT THE LOCATION AND STRUCTURE OF YOUR SOLR
 
-var SERVERROOT = 'http://evolvingweb.ca/solr/reuters/select/'; //SELECT endpoint
+var SERVERROOT = 'http://localhost:8983/solr/gettingstarted/select/'; //SELECT endpoint
 var HITTITLE = 'title';                                        //Name of the title field- the heading of each hit
 var HITBODY = 'text';                                          //Name of the body field- the teaser text of each hit
 var HITSPERPAGE = 20;                                          //page size- hits per page
